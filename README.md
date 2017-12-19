@@ -1,5 +1,7 @@
 # is-email-valid
 
+[![Build status](https://travis-ci.org/fintory/is-email-valid.svg?branch=master)](https://travis-ci.org/fintory/is-email-valid)
+
 ## Why another email validator?
 
 We at Fintory often work out sign up processes for companies we work with. In the progress of the conception of the sign up processes, we often need an email address from the user that is signing up. When validating and showing an error message, it is mandatory to have a look at what should be allowed and what not. We wanted to have a basic foundation with a simple regular expression, that validates the most important things of an email address. A non-whitespace string before and after the `@` and also one after the `.`. This is what this package is about.
