@@ -41,5 +41,3 @@ export const isEmail = isEmailValid;
  * @type {Promise}
  */
 export const isEmailPromise = isEmailValidPromise;
-
-export default isEmailValid;
