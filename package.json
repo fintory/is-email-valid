@@ -5,7 +5,7 @@
   "main": "index.umd.js",
   "scripts": {
     "test": "ava test.js",
-    "prepublish": "rollup index.js --output.format umd --name \"is-email-valid\" --output.file index.umd.js"
+    "build": "rollup index.js --output.format umd --name \"is-email-valid\" --output.file index.umd.js"
   },
   "repository": {
     "type": "git",

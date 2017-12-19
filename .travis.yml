@@ -4,7 +4,10 @@ node_js:
 
 cache: yarn
 
-script: yarn test
+script:
+  - yarn test
+
+before_deploy: yarn build
 
 deploy:
   provider: npm
